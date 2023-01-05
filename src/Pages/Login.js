@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
+
+
 const User = {
   id: 'test@example.com',
   pw: 'test2323@@@'
@@ -53,6 +55,17 @@ export default function Login() {
       }
     };
     */
+    async function postUser() {
+      try {
+      // POST 요청은 body에 실어 보냄
+        await axios.post('/user', {
+            firstName: 'Fred',
+            lastName: 'Flintstone'
+        });
+      } catch (e) {
+        console.error(e);
+      }
+    }
 
     return (
       <div className="page container">
@@ -69,6 +82,7 @@ export default function Login() {
               className="input"
               type="text"
               placeholder="아이디를 입력하세요"
+              name=""
             />
           </div>
           

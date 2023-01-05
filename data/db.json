@@ -1,0 +1,16 @@
+{
+  "test": [
+    {
+      "userId": "asd",
+      "userPw": "asdasdasd",
+      "userName": "",
+      "userBirth": "",
+      "userInterest": "",
+      "userGender": "",
+      "userAddress": "",
+      "userEmail": "",
+      "id": 1
+    }
+  ]
+}
+

@@ -12,7 +12,7 @@ export default function SignUp2() {
         🔑회원가입
       </div>
 
-      <form>
+      
 
         <div className="contentWrap">
           <div className="inputTitle">🎂생년월일</div>
@@ -48,15 +48,19 @@ export default function SignUp2() {
 
 
           <div>
-            <button className="bottomButton mt-5">
-              ⬅️이전
-            </button>
-            <button className="bottomButton mt-5">
-              🆗확인
-            </button>
+            <NavLink className="nav-link" to="/users/signup">
+              <button className="bottomButton mt-5" >
+                ⬅️이전
+              </button>
+            </NavLink>
+            <NavLink className="nav-link" to="/Rooms/">
+              <button className="bottomButton mt-5">
+                🆗확인
+              </button>
+            </NavLink>
           </div>
         </div>
-      </form>
+      
     </div>
   );
 }

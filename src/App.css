@@ -117,7 +117,9 @@
                    
 	width: 100%;              /*가로폭은 최대로*/
 	max-width: 750px;
-  padding: 10px 20px;       /*상하 좌우*/
+  margin-top: 80px;
+  margin-bottom:20px;
+  padding: 30px 20px;       /*상하 좌우*/
   
 
   background-color: #CCE5FF;
